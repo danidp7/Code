@@ -3,7 +3,6 @@
 #include <string.h>
 #include <ctype.h>
 
-// Function to encrypt a message using Vigenere cipher with a given key
 void vigenere_encrypt(char *message, const char *key) {
     int message_len = strlen(message);
     int key_len = strlen(key);
@@ -18,7 +17,6 @@ void vigenere_encrypt(char *message, const char *key) {
     }
 }
 
-// Function to decrypt a message using Vigenere cipher with a given key
 void vigenere_decrypt(char *message, const char *key) {
     int message_len = strlen(message);
     int key_len = strlen(key);
